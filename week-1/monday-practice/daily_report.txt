@@ -1,0 +1,28 @@
+Daily Report - Monday Practice
+Today I worked on:
+-Practiced Python fundamentals using lists and dictionaries.
+-Worked with loops and conditional statements to process student data.
+-Calculated averages, counted students by city and course, and generated reports in the terminal.
+-Created performance statuses and a clean report dataset.
+
+Completed tasks:
+-Completed Task 1: Printed student information.
+-Completed Task 2: Filtered students by city, attendance, and homework score.
+-Completed Task 3: Calculated average attendance, average homework score, and counted students by city and course.
+-Completed Task 4: Assigned a performance status to each student.
+-Completed Task 5: Created a simplified report list.
+-Completed Task 6: Generated the final student report in the terminal.
+
+Not completed yet:
+-I have not completed all bonus tasks yet, especially organizing the code into functions and ranking students by homework score.
+
+Biggest difficulty:
+-The most challenging part was creating the performance status logic using multiple conditions and making sure every student was classified correctly.
+
+How I tried to solve it:
+-I solved the problems by testing my code step by step, checking the output in the terminal after each change, and fixing mistakes until the results matched the expected output.
+
+What I need to improve for Tuesday:
+-Practice writing cleaner and more reusable Python code using functions.
+-Improve my understanding of sorting and working with dictionaries.
+-Be more confident working with datasets before starting CSV files and data pipelines.
