@@ -1,0 +1,35 @@
+Daily Report - Day 2 Practice
+
+Today I worked on:
+- I practiced how to read data from a CSV file in Python.
+- I learned how to inspect raw data and find problems in it.
+- I worked on cleaning data and creating output files.
+
+Completed tasks:
+- I created the CSV pipeline script.
+- I checked the data quality issues.
+- I cleaned the data and generated the output files.
+- I wrote the README and the daily report.
+
+Not completed yet:
+- Nothing major was left unfinished today exept recommended functions.
+
+Biggest difficulty:
+- The hardest part was understanding how to clean the data correctly without losing the original records.
+
+How I tried to solve it:
+- I read the data carefully, checked each row, and used simple rules to fix the problems step by step.
+
+Unity Tech Hub x Agilyti - Data Engineering / Databricks Training
+
+Page 8
+
+Unity Tech Hub x Agilyti Data Engineering / Databricks Training
+
+What I understood better today:
+- I understood better how real data needs cleaning before it can be used.
+- I also understood how small data pipelines are built from reading, cleaning, and reporting data.
+
+What I need to improve for the next session:
+- I need to improve my confidence with Python functions and writing cleaner code.
+- I also want to practice more with data cleaning and reports.

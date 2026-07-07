@@ -1,0 +1,19 @@
+Data Quality Report
+
+Total issues found: 9
+
+Missing values:
+student_id=3, column=attendance
+student_id=4, column=homework_score
+student_id=5, column=city
+student_id=6, column=age
+student_id=7, column=registered_date
+student_id=9, column=course
+
+Invalid numeric values:
+student_id=12, column=attendance, value=abc
+
+Inconsistent text values:
+student_id=6, column=city, value=VUSHTRRI
+student_id=10, column=city, value=prishtina
+student_id=7, column=course, value=Data engineering
