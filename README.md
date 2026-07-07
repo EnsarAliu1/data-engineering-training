@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Day 2 Practice - CSV Mini Data Pipeline
 
 This project is a small practice exercise where I worked with real student data from a CSV file. The goal was to read the data, check for problems, clean it, and create useful output files that are easier to understand.
@@ -35,3 +36,7 @@ python csv_pipeline.py
 - organizing a small project in GitHub
 
 This was a useful exercise for learning how real data workflows usually start: raw data comes in, it needs to be checked, cleaned, and turned into something usable.
+=======
+<img width="1883" height="1050" alt="Screenshot 2026-07-06 131811" src="https://github.com/user-attachments/assets/3197e86f-b956-41a0-a36e-e6fd02a260ac" />
+# data-engineering-training
+>>>>>>> 435e8af93503ed10f599f11d1f2370a444f3dd49
