@@ -1,0 +1,36 @@
+Daily Report - Day 4 Practice
+Today I worked on:
+- Comparing how to filter and sort data using Python vs SQL.
+
+Python tasks completed:
+- Wrote loops to filter completed orders and orders over 100.
+- Made a function to calculate quantity * price for each order.
+- Sorted the orders by price and sliced the top 3.
+- Wrote the business questions (which order is valuable and about cancelled orders).
+- Did the bonus to add new orders and count orders for each city.
+
+SQL tasks completed:
+- Set up the table and inserted the sample orders.
+- Wrote SELECT queries with WHERE filters for status, price, city, and category.
+- Used AND/OR operators.
+- Sorted queries with ORDER BY and limited results using LIMIT.
+- Labeled calculated columns with AS.
+- Used SUM and COUNT for the bonus tasks.
+
+Comparison tasks completed:
+- Compared each Python function with the SQL query version and wrote my notes in comparison.md.
+
+Unity Tech Hub x Agilyti Data Engineering / Databricks Training
+
+
+What I understood better today:
+- How SQL makes filtering and sorting data way easier and faster than writing for-loops in Python.
+
+What was difficult:
+- Writing the custom sorting function in Python and getting the list slicing right to show only the top 3.
+
+What I need to practice more:
+- Python dictionary manipulation and sorting syntax since I keep forgetting it.
+
+Did I use AI? If yes, how did I use it?
+- Yes, I used it to help me write the README in simple English and structure my daily report.
