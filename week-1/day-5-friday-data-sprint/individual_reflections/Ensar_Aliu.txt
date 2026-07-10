@@ -1,0 +1,43 @@
+# Individual Reflection - Ensar Aliu
+
+---
+
+My role in the group:
+
+I was responsible for the SQL part of the project. I also worked together with Urim to build the CSV file and the orders table with all the data at the start of the sprint.
+
+---
+
+What I worked on:
+
+I wrote all the SQL queries to answer the business questions. This included setting up the database table, inserting the order data, and writing queries to filter completed orders, calculate total revenue, count orders by city and category, and find the most valuable orders. I also helped put together the business insights based on the results.
+
+---
+
+What I understood better today:
+
+I understood much better how GROUP BY works in SQL and why it is so useful. When you want to count or sum something for each city or each category, GROUP BY does it all in one query. Before today I was not fully confident using it, but now it makes a lot of sense to me.
+
+---
+
+What was difficult for me:
+
+The hardest part was getting the SUM query right for the completed revenue. I had to make sure I was filtering by status first and then summing only those rows. Getting the WHERE clause in the right place took a couple of tries.
+
+---
+
+What I can explain live:
+
+I can explain how the SQL queries work and why SQL is a great tool for answering business questions quickly. I can also explain the business insight about the gap between confirmed and potential revenue, and what it means for the business owner in simple terms.
+
+---
+
+What I still need to practice:
+
+I want to practice writing more complex SQL queries, especially ones that combine multiple filters and calculations together. I also want to get faster at reading query results and turning them into clear business explanations.
+
+---
+
+Did I use AI? If yes, how did I use it?
+
+Yes, I used AI to help me write the individual reflection and the business insights in clear and simple language. The SQL queries and the analysis were done by me and Urim during the sprint.

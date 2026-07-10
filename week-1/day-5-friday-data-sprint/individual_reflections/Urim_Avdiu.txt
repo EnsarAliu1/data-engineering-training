@@ -1,0 +1,43 @@
+# Individual Reflection - Urim Avdiu
+
+---
+
+My role in the group:
+
+I was responsible for the Python part of the project. I also worked together with Ensar to build the CSV file with the order data at the start of the sprint.
+
+---
+
+What I worked on:
+
+I wrote the Python script that reads the orders from the CSV file and answers all the business questions using code. I built functions to count orders, filter completed ones, calculate revenue, find the most expensive and most valuable orders, and count orders by city and category.
+
+---
+
+What I understood better today:
+
+I understood better how to use loops and dictionaries together to count and group data. I also understood the difference between the most expensive order by unit price and the most valuable order by total amount, which are not always the same thing.
+
+---
+
+What was difficult for me:
+
+The most difficult part was comparing orders to find the highest total value. I had to go through every order using a loop and manually keep track of which one had the highest quantity times price. It took a few tries to get the logic right.
+
+---
+
+What I can explain live:
+
+I can explain how the Python script works from start to finish. I can walk through how we load the CSV file, how we filter orders by status, and how we calculate the total revenue. I can also explain why we have two separate functions for the most expensive and most valuable orders.
+
+---
+
+What I still need to practice:
+
+I need to practice sorting and filtering data in Python more efficiently. I also want to get more comfortable with dictionaries because I still have to think carefully before I use them.
+
+---
+
+Did I use AI? If yes, how did I use it?
+
+Yes, I used AI to help me structure the reflection and the presentation notes in a clear and simple way. The code and the analysis were done by me and Ensar during the sprint.
