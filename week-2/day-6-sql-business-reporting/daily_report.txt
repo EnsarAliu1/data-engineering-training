@@ -1,0 +1,40 @@
+﻿Daily Report - Day 6 Practice
+Date: July 13, 2026
+
+Today I worked on:
+- Building a full SQL business reporting sprint from scratch using three connected tables: customers, products, and orders. I wrote queries that answered real business questions about revenue, top customers, best cities, and order status — and then turned all those results into a written business report.
+
+SQL setup completed:
+- Created three tables from scratch: customers (10 rows), products (8 rows), and orders (14 rows). Inserted all sample data manually using INSERT INTO statements. Verified the data loaded correctly by running SELECT * on each table. The dataset covers one week of orders from July 1 to July 7, 2026.
+
+Aggregation tasks completed:
+- Counted total orders (14), completed orders (10), pending orders (2), and cancelled orders (2). Calculated total quantity across all orders and for completed orders only. Found the average product price, the cheapest product (USB Cable at ), and the most expensive (Laptop at ). Calculated total completed revenue (,639) and total non-completed potential value (,660) from pending and cancelled orders.
+
+GROUP BY tasks completed:
+- Grouped orders by status, order date, customer ID, and product ID. Calculated completed revenue per product. Used HAVING to filter only customers with more than one order and only products with completed quantity greater than 2. Learned the difference between WHERE (filters before grouping) and HAVING (filters after grouping).
+
+JOIN tasks completed:
+- Joined orders with customers to add customer name and city to each order. Joined orders with products to add product name, category, and price. Joined all three tables together to build a complete order report. Created completed revenue by product name, by category, by city, and by customer name. Found the top 3 customers and top 3 products by revenue. Identified all non-completed orders with their potential value.
+
+Business report completed:
+- Wrote a full 15-point business report in plain language based on the actual SQL results. Covered total and completed orders, revenue breakdown, top product, top category, top city by orders, top city by revenue, top customer, repeat buyers, non-real revenue, one business recommendation, one data quality risk, and what the report helps a manager decide.
+
+What I understood better today:
+- I understood that revenue is not just about how many orders exist — it is about filtering only completed ones. If you include pending and cancelled orders in your revenue number, you are lying to yourself and to the business. I also understood that order count and revenue are two completely different metrics. Prishtina had the most orders but Vushtrri made more money. That kind of insight only appears when you actually read the results, not just run the query.
+
+What was difficult:
+- Understanding when to use HAVING versus WHERE was confusing at first. Both filter data, but they work at completely different stages of the query. WHERE runs before the rows are grouped, so it cannot see group totals. HAVING runs after grouping, so it can filter based on COUNT or SUM results. Once I understood the order of operations in SQL — FROM, JOIN, WHERE, GROUP BY, HAVING, SELECT, ORDER BY — it became much clearer.
+
+What I need to practice more:
+- Writing three-table JOINs faster without looking at the column names. I still need to check which table holds which column (for example, price is in products, city is in customers). With more practice I want to be able to write JOIN queries from memory. I also want to practice reading result sets more carefully to spot business insights without someone pointing them out.
+
+Did I use AI? If yes, how did I use it?
+- Yes. I used AI as a writing and checking partner. I wrote all the SQL queries myself based on the tasks given. I used AI to help structure the business report, query explanations, and README in a professional and clear format. AI helped me turn my SQL results into proper business language, but all the numbers, logic, and SQL code came from my own work and the actual dataset.
+
+What I can explain live without help:
+- What COUNT, SUM, AVG, MIN, and MAX do and when to use each one.
+- Why WHERE filters before grouping and HAVING filters after grouping.
+- Why you need a JOIN when data is spread across two or more tables.
+- Why pending and cancelled orders should never be counted as real revenue.
+- What the Laptop cancellation pattern means for the business and why it matters.
+- The difference between order count and revenue as metrics, and why one does not always predict the other.
