@@ -1,0 +1,49 @@
+﻿Daily Report - Day 7 Practice
+
+Today I worked on:
+- Finding and correcting syntax errors in 10 broken SQL queries.
+- Writing and running 5 independent validation queries to double-check my work.
+- Building a detailed query explanations log to map columns and tables.
+- Preparing a verified weekly business report highlighting revenue, active cities, and top customers.
+
+Broken queries I fixed:
+- Query 1: Added the missing JOIN ON clause linking orders and customers.
+- Query 2: Inserted the missing comma after the product name column.
+- Query 3: Removed the early semicolon before the ORDER BY clause.
+- Query 4: Added the missing JOIN ON products clause to calculate unit prices.
+- Query 5: Added the missing JOIN ON products clause to allow grouping by category.
+- Query 7: Moved the HAVING filter so it runs after GROUP BY instead of before.
+- Query 8: Added the missing JOIN ON criteria to prevent accidental row duplication.
+- Query 9: Prepended table names to columns to resolve the ambiguous column name error.
+- Query 10: Changed the status filter to != 'completed' to capture excluded orders.
+
+Validation queries I completed:
+- V1: Counted all weekly orders.
+- V7: Calculated total completed revenue.
+- V9: Sorted completed revenue by product category.
+- V11: Identified all customers with more than one order.
+- V13: Calculated the total potential revenue lost to cancelled or pending orders.
+
+Business numbers I verified:
+- Total order activity: 14 total orders (10 completed, 2 pending, 2 cancelled).
+- Real completed revenue: $1,639.
+- Top product revenue: Laptop ($700) and Monitor ($540).
+- Category performance: Electronics generated $1,240 (76% of total revenue).
+- City order activity: Prishtina (5 orders) and Vushtrri (4 orders).
+- Repeat customer base: Arta, Blend, Dren, and Elira (each placed exactly 2 orders).
+- Non-revenue orders: 4 orders totaling $1,660 in potential value.
+
+What SQL mistake I understand better now:
+- Misplacing HAVING before GROUP BY. The database must group records before it can filter aggregate values (like counts or sums). Placing HAVING first creates syntax errors because there are no grouped records to check yet.
+
+What was difficult:
+- Spotting logical errors that don't trigger syntax warnings. A query like Query 8 (missing JOIN ON) runs without errors but creates a cross join that duplicates rows. You only notice it by carefully double-checking the row count.
+
+What I need to practice more:
+- Writing multi-table JOINs and working with nested subqueries to answer complex business questions.
+
+Did I use AI? If yes, how did I use it?
+- Yes, I used an AI assistant to verify my manual math, double-check my explanations of database relationships, and structure the markdown reports cleanly.
+
+Can I explain my fixed queries live?
+- Yes, I can walk through any of the 10 fixed queries and explain the specific syntax or logical rules that were corrected.
