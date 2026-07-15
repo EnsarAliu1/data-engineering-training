@@ -1,0 +1,17 @@
+Validation Summary Report
+=========================
+Total Records Processed: 24
+Total Valid Records: 20
+Total Invalid Records: 4
+
+Invalid Record Reasons:
+  Order ID 15 | Customer: (no name) | Empty customer name
+  Order ID 17 | Customer: Medina | Quantity is 0 or less
+  Order ID 18 | Customer: Ilir | Quantity is 0 or less
+  Order ID 20 | Customer: Arta | Price is 0 or less
+
+Unique Raw Values (before cleaning):
+  Statuses:   ['completed', 'Completed', 'cancelled', 'pending', 'complete', 'returned']
+  Cities:     ['Vushtrri', 'Prishtina', 'Mitrovica', 'Peja', 'Prizren', 'Ferizaj', 'Gjilan', 'Prishtine']
+  Categories: ['Electronics', 'Accessories', 'accessories', 'Office']
+  Channels:   ['online', 'store', 'Online', 'partner', 'unknown']

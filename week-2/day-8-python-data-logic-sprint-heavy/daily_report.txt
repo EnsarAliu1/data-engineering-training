@@ -1,0 +1,47 @@
+﻿Daily Report - Day 8 Practice
+Today I worked on:
+- Building a full Python data pipeline to process and analyze a dataset of e-commerce orders.
+- Designing a robust validation, cleaning, and normalization process for raw records.
+- Creating a logic explanations document (logic_explanations.md) to explain validation, status mapping, and pipeline flow.
+- Writing a clear project README.md documenting the architecture, files, and core Python concepts used.
+
+Python tasks completed:
+- Wrote functions in python_data_analysis.py to print raw statistics, filter invalid items, and normalize columns.
+- Implemented calculations for total order amounts, completed revenue, averages, and highest/lowest completed order values.
+- Built grouping logic to aggregate order counts and completed revenues by different fields.
+- Implemented custom sorting with lambda functions to extract top-performing orders and categories.
+- Handled writing files safely using context managers and native file operations.
+
+Validation logic completed:
+- Checked for empty customer names and filtered them out of valid metrics.
+- Flagged and isolated orders with quantities less than or equal to zero.
+- Flagged and isolated orders with prices less than or equal to zero.
+- Logged exact order IDs and error reasons for all invalid records.
+
+Cleaning/normalization completed:
+- Normalizing variations of status (complete, Completed -> completed).
+- Correcting city spelling errors (Prishtine -> Prishtina).
+- Adjusting category text casing (accessories -> Accessories).
+- Normalizing channel casing (Online -> online).
+- Substituting empty names with "unknown" and invalid numeric values with None.
+- Calculating dynamic totals while avoiding Null-pointer errors.
+
+Reports generated:
+- output/invalid_records.txt: Detailed list of all failed records and the reasons they were rejected.
+- output/validation_report.txt: Full summary count of valid vs. invalid records alongside an inventory of raw values before cleaning.
+- output/business_report.txt: Complete revenue overview, breakdowns by city/category/channel, top 5 orders, repeat customers list, and suggestions.
+- logic_explanations.md: Explicit documentation answering the architectural questions about the pipeline.
+- README.md: An overview detailing files, folders, execution instructions, and concepts practiced.
+
+What was difficult:
+- The hardest part of this sprint was keeping the sequence of transformations strictly ordered. Since each step relies on the previous one (e.g. we must validate to strip out bad numbers before calculating revenue, and we must normalize statuses before filtering for completed orders), any small shift in function execution order inside main() completely throws off the final output. Building this manually without using Pandas meant keeping close track of dictionary mutations and copying lists explicitly to prevent side effects.
+
+What I understood better today:
+- I got a much clearer understanding of why data validation has to happen as the very first step in a data engineering pipeline. Seeing how a single negative quantity (-1) or zero price can skew averages and total revenue numbers made the need for upfront checks very real. I also learned how to use Python's built-in sort and lambda key functions to cleanly rank nested list-of-dictionary structures without needing external tools.
+
+What I need to practice more:
+- Managing and refactoring multi-stage dictionary lookups and custom groupings.
+- Designing cleaner error handling and typing conventions when working with mixed dictionary keys that might contain None values.
+
+Did I use AI? If
+- Yes, I used an AI assistant to pair program, check my logic sequencing, draft clean reports, write clear markdown files, and format this daily log to keep it concise and structured.

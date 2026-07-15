@@ -1,0 +1,4 @@
+Order ID 15 | Customer: (no name) | Reason: Empty customer name
+Order ID 17 | Customer: Medina | Reason: Quantity is 0 or less
+Order ID 18 | Customer: Ilir | Reason: Quantity is 0 or less
+Order ID 20 | Customer: Arta | Reason: Price is 0 or less

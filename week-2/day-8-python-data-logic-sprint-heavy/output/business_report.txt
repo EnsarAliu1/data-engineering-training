@@ -1,0 +1,44 @@
+Business Report
+===============
+
+Total Completed Revenue: 2689 
+
+Revenue by City:
+  Prishtina: 849 
+  Vushtrri: 790 
+  Peja: 510 
+  Prizren: 360 
+  Mitrovica: 180 
+
+Revenue by Category:
+  Electronics: 1960 
+  Office: 430 
+  Accessories: 299 
+
+Revenue by Channel:
+  online: 1099 
+  partner: 800 
+  store: 750 
+  unknown: 40 
+
+Top 5 Completed Orders by Total Amount:
+  Order ID 16 | Bleron | Laptop | 720 
+  Order ID 1 | Arta | Laptop | 700 
+  Order ID 8 | Leart | Monitor | 360 
+  Order ID 23 | Faton | Desk Chair | 240 
+  Order ID 4 | Dren | Monitor | 180 
+
+Repeat Customers (more than 1 order):
+  Arta
+  Dren
+  Elira
+  Nora
+  Leart
+  Faton
+  Gresa
+  Rina
+
+Final Recommendation:
+Revenue numbers are based only on valid completed orders.
+4 records were removed before reporting due to missing or invalid data.
+Pending, cancelled, and returned orders were excluded from all revenue totals.
