@@ -1,0 +1,37 @@
+Daily Report - Day 10 Practice
+
+Today I worked on:
+- Building and documenting a 3-tier data pipeline architecture (Bronze, Silver, Gold).
+- Cleaning raw inputs and validating data quality check constraints using Python.
+- Structuring reports and explaining the logical design of the pipeline layers.
+
+Bronze tasks completed:
+- Loaded and read raw orders, products, and customers files in Python.
+- Reviewed raw files to identify data issues like missing values, duplicates, and invalid prices/quantities.
+
+Silver tasks completed:
+- Cleaned spelling errors and standardized status lists.
+- Implemented validation rules to drop duplicate orders, missing dates, and invalid numbers.
+- Maintained catalog integrity by verifying customer and product lookup mappings.
+- Enriched datasets with names, categories, locations, and calculated total order amounts.
+
+Gold tasks completed:
+- Generated revenue summary files grouped by product category, customer city, and buyer profiles.
+- Wrote an automated executive summary report with business performance metrics and data quality findings.
+
+What I understood better today:
+- The importance of keeping raw data unchanged to enable pipeline re-runs (idempotency).
+- How separating raw data (Bronze), clean details (Silver), and aggregates (Gold) keeps code and data organized.
+
+What was difficult:
+- Writing raw validation logic and referential lookup filters in plain Python without using Pandas or databases.
+
+One result I can explain and defend:
+- The data reconciliation proof: 31 raw records = 21 clean records + 10 invalid records. Each record's status and error details are isolated cleanly.
+
+What I need to practice more:
+- Handling dirty date string parsing in pure Python.
+- Optimizing Python loop performances for larger lookups.
+
+Did I use AI? If yes, how did I use it?
+- Yes, I pair-programmed with an AI assistant to verify code correctness, design a clean documentation layout, and write user-friendly explanations.
