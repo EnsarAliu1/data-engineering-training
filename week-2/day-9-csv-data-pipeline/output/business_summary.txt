@@ -1,0 +1,57 @@
+Business Summary - Day 9
+========================================
+
+Completed revenue: 1624.00
+
+Orders by status:
+  - completed: 9
+  - cancelled: 2
+  - pending: 2
+
+Orders by city:
+  - Vushtrri: 4
+  - Prishtina: 4
+  - Mitrovica: 2
+  - Peja: 1
+  - Prizren: 1
+  - Ferizaj: 1
+
+Revenue by category:
+  - Electronics: 1240.00
+  - Accessories: 264.00
+  - Office: 120.00
+
+Revenue by channel:
+  - online: 930.00
+  - store: 670.00
+  - unknown: 24.00
+
+Top 3 customers by completed revenue:
+  - Arta: 700.00
+  - Leart: 360.00
+  - Dren: 180.00
+
+Top 3 products by completed revenue:
+  - Laptop: 700.00
+  - Monitor: 540.00
+  - Headphones: 150.00
+
+Most valuable completed order:
+  - Order ID: 1 | Customer: Arta | Product: Laptop | Total: 700.00
+
+Orders that should not count as revenue:
+  - Order ID: 3 | Status: cancelled | Amount: 40.00
+  - Order ID: 6 | Status: pending | Amount: 700.00
+  - Order ID: 11 | Status: cancelled | Amount: 700.00
+  - Order ID: 12 | Status: pending | Amount: 220.00
+
+Business recommendation:
+  1. Focus marketing on the 'Electronics' category which drives the highest completed revenue (1240.00).
+  2. Standardize sales channels; investigate the 'unknown' channel orders (like order 10) to prevent data loss.
+  3. Target high-value clients like Arta (700.00) and Leart (360.00) with loyalty programs.
+
+Why this Gold output can be trusted:
+  - Only completed orders should count as real revenue.
+  - Pending and cancelled orders should appear in status reporting, but not in completed revenue.
+  - Business numbers must be calculated from clean data, not guessed manually.
+  - String standardizations prevent split-grouping errors for cities and statuses.

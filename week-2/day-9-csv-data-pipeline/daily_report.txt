@@ -1,0 +1,45 @@
+Daily Report - Day 9 Practice
+
+Today I worked on:
+
+* Building a complete CSV data pipeline in Python using raw customer, product, and order data.
+* Loading data from CSV files, creating lookup tables, validating records, cleaning data, and generating reports.
+* Understanding how data moves through Bronze, Silver, and Gold layers.
+
+Pipeline parts completed:
+
+* Loaded raw CSV files into Python using the csv module.
+* Built lookup tables for customers and products.
+* Validated order records and separated valid and invalid data.
+* Created clean output files and data quality reports.
+* Generated business summary reports from cleaned data.
+
+Most difficult part:
+
+* Understanding how to connect orders with customers and products using lookup tables and making sure validation rules were applied correctly.
+
+One bug/error I fixed:
+
+* I accidentally passed function names instead of calling them when building lookup tables (`load_customers` instead of `load_customers()`). After adding the parentheses, the lookup tables worked correctly.
+
+What I understood better about Bronze/Silver/Gold:
+
+* Bronze contains the raw data exactly as it arrives.
+* Silver contains cleaned, validated, and standardized data that can be trusted.
+* Gold contains aggregated business insights and reports created from the clean Silver data.
+* I now understand how data is transformed step by step before it becomes useful for business reporting.
+
+What I need to practice more:
+
+* Data validation logic.
+* Building larger data pipelines with multiple processing steps.
+* Aggregations and reporting calculations.
+* Writing cleaner and more modular Python functions.
+
+What I learned today:
+
+* How to build a complete data pipeline without using Pandas.
+* How lookup tables work as a Python version of SQL joins.
+* How to separate invalid records from valid records.
+* Why data quality checks are important before creating reports.
+* How the Medallion Architecture (Bronze, Silver, Gold) is used in real-world data engineering projects.
