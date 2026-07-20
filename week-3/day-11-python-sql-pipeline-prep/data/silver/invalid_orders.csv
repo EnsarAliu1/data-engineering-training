@@ -1,0 +1,9 @@
+order_id,customer_id,product_id,quantity,status,order_date,channel,invalid_reason
+3,C003,P003,,completed,2026-07-02,online,invalid_quantity
+6,C005,P005,-1,completed,2026-07-03,store,invalid_quantity
+7,C006,P006,abc,pending,2026-07-04,web,invalid_quantity
+8,C007,P002,2,,2026-07-04,online,invalid_status
+9,C008,P007,1,completed,,store,missing_order_date
+16,C013,P002,2,completed,2026-07-08,online,invalid_customer_id
+17,C003,P999,1,completed,2026-07-08,online,invalid_product_id
+22,C009,P009,0,completed,2026-07-11,online,invalid_quantity

@@ -1,0 +1,44 @@
+============================================================
+  EXECUTIVE SUMMARY
+============================================================
+
+PIPELINE RUN OVERVIEW
+----------------------------------------
+  Total raw orders received:   24
+  Orders that passed checks:   16
+  Orders that failed checks:   8
+  Completed orders:            11
+
+REVENUE SUMMARY
+----------------------------------------
+  Total completed revenue:     $2,851.00
+
+TOP PERFORMING CITY
+----------------------------------------
+  City:             Vushtrri
+  Revenue:          $1,655.00
+  Completed orders: 5
+
+TOP PERFORMING CATEGORY
+----------------------------------------
+  Category:         Electronics
+  Revenue:          $2,280.00
+  Completed orders: 4
+
+TOP CUSTOMER
+----------------------------------------
+  Name:             Noar
+  Total spent:      $880.00
+  Completed orders: 2
+
+INVALID ORDER BREAKDOWN
+----------------------------------------
+  invalid_customer_id            1 order(s)
+  invalid_product_id             1 order(s)
+  invalid_quantity               4 order(s)
+  invalid_status                 1 order(s)
+  missing_order_date             1 order(s)
+
+============================================================
+  End of report
+============================================================
