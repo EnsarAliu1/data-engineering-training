@@ -1,0 +1,37 @@
+﻿Daily Report - Day 12 Practice
+
+Today I worked on:
+- Designing a multi-table SQLite relational database schema (customers, products, orders, and order_items).
+- Enforcing constraints such as Primary Keys, Foreign Keys, Auto Increment, and CHECK statements.
+- Writing test SQL to intentionally trigger and document constraint violations.
+- Documenting the differences between INNER JOIN and LEFT JOIN and implementing real-world analytical queries.
+
+Schema tasks completed:
+- Defined structured tables with correct data types and constraints.
+- Integrated CHECK constraints for segments, categories, statuses, and numeric ranges (prices and quantities).
+- Set up active foreign key relations ensuring relational integrity across the schema.
+
+Testing tasks completed:
+- Created and documented 6 edge-case tests in relationship_tests.sql to verify foreign keys and check rules.
+- Traced real error failures (e.g. SQLite's FOREIGN KEY constraint failed and CHECK constraint failed).
+- Drafted a clear troubleshooting log in mistakes_and_fixes.md showing bad inserts versus correct SQL.
+
+Reporting tasks completed:
+- Wrote reports comparing LEFT JOIN vs INNER JOIN showing when records are dropped vs populated with NULL.
+- Implemented multi-join aggregation queries for customer revenue, channel performance, and product counts.
+
+What I understood better today:
+- Why SQLite requires PRAGMA foreign_keys = ON; in every session to actually enforce relationships.
+- How bridge tables (like order_items) solve the logical problems of many-to-many relationships.
+
+What was difficult:
+- Writing and mapping the clean, manual SQL constraints to match the logical requirements without logic flaws.
+
+One result I can explain and defend:
+- Why an order cannot reference a customer_id of 9999. The database will reject this transaction immediately, protecting downstream analysts from dealing with orphaned data.
+
+What I need to practice more:
+- Using database views and indexing foreign keys to handle queries on larger data profiles.
+
+Did I use AI? If yes, how did I use it?
+- Yes, I pair-programmed with an AI assistant to write logical explanations for relationships, format SQL test scripts, and build clean documentation.
