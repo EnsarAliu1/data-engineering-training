@@ -1,0 +1,43 @@
+Daily Report - Day 14 Practice
+
+Today I worked on:
+- Designing and implementing a normalized 6-table relational database schema in SQLite for a tech training academy (students, instructors, programs, enrollments, attendance, and payments).
+- Enforcing structural data integrity using Primary Keys, Foreign Keys, UNIQUE composite constraints, NOT NULL, and CHECK constraints.
+- Writing comprehensive SQL query suites including multi-table JOINs, aggregation queries (GROUP BY), and group-filtered analytics (HAVING).
+- Executing data quality audits using LEFT JOIN null-checks to spot process gaps, missing payment records, and ghost enrollments.
+- Synthesizing technical database outputs into actionable business intelligence for executive decision-making.
+
+Schema & Design tasks completed:
+- Built a 3NF relational schema with bridge table architecture (`enrollments`) to resolve many-to-many relationships between students and programs.
+- Configured referential integrity constraints across 1-to-N relationships (instructors to programs, enrollments to attendance, and enrollments to payments).
+- Implemented robust `CHECK` rules restricting course levels (`Beginner`, `Intermediate`, `Advanced`), enrollment statuses (`active`, `completed`, `dropped`), payment statuses (`Pending`, `Paid`, `Refunded`), positive course prices, and non-negative session minutes.
+- Added composite `UNIQUE` constraints to prevent duplicate course enrollments `(student_id, program_id)` and duplicate session attendance entries `(enrollment_id, session_date)`.
+
+Testing & Quality Audit tasks completed:
+- Wrote `relationship_tests.sql` to verify foreign key links, mandatory relationship constraints, and bridge table integrity.
+- Executed `data_quality_checks.sql` to identify data anomalies, including missing payment records, unpaid active balances, and zero-attendance enrollments.
+- Uncovered a business workflow anomaly (Enrollment ID 6 / Hana Morina) where an active course enrollment existed without a corresponding transaction record in the `payments` table.
+- Identified financial exposure totaling €279.96 in uncollected fees across 4 active students with pending or missing payments.
+
+Reporting & Business Analytics tasks completed:
+- Generated course popularity and revenue reports comparing student volume against financial contribution (e.g., JavaScript Advanced vs HTML & CSS Fundamentals).
+- Built geographic distribution reports highlighting student concentration (25% in Prishtinë, 50% combined in regional cities).
+- Constructed `HAVING` clause reports filtering programs with revenue exceeding €300 and flagging students with attendance below 70%.
+- Compiled executive recommendations in `business_insights.md` addressing payment gatekeeping, student retention alerts, and instructor workload distribution.
+
+What I understood better today:
+- How bridge tables decouple many-to-many relationships while providing a single anchor for secondary operational logs (attendance and payments).
+- Why DDL foreign key constraints enforce relational integrity but cannot substitute for application transaction logic (e.g., ensuring payment creation upon enrollment).
+- How `LEFT JOIN ... WHERE key IS NULL` serves as a powerful audit technique to catch system gaps and missing child records.
+
+What was difficult:
+- Constructing complex multi-level aggregations (`students` -> `enrollments` -> `attendance`) to correctly calculate percentage attendance rates for students with missing or zero session logs.
+
+One result I can explain and defend:
+- Why JavaScript Advanced (€299.98) generated double the collected revenue of HTML & CSS Fundamentals (€149.97) despite having fewer active students (2 vs 3). Higher course pricing in intermediate/advanced tiers yields superior margin per student compared to high-volume entry-level courses.
+
+What I need to practice more:
+- Designing automated triggers and database views to abstract complex reporting queries and enforce transactional rules directly within the database engine.
+
+Did I use AI? If yes, how did I use it?
+- Yes, I pair-programmed with an AI assistant to validate database schema constraints, structure edge-case audit queries, and refine business insight documentation.
