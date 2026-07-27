@@ -1,0 +1,37 @@
+Daily Report - Day 16 Practice
+
+Today I worked on:
+- Designing and setting up a 7-table training academy database schema in SQLite to test data maintenance and SQL DML operations.
+- Executing safe data updates, verifying row targets with WHERE clauses, and standardizing inconsistent categorical values across tables.
+- Investigating data deletion strategies, comparing hard deletes against soft deletes to protect relational integrity and reporting history.
+- Handling missing data using IS NULL filters and COALESCE functions for clean analytical reporting.
+- Building dynamic business classification rules using SQL CASE WHEN statements for student performance and retention risk modeling.
+- Writing anti-join queries using LEFT JOIN and NULL filters to isolate missing assignment submissions and attendance gaps.
+
+Schema & Setup tasks completed:
+- Created 7 core tables: students, programs, enrollments, sessions, attendance, assignments, and submissions with primary keys, foreign keys, UNIQUE constraints, and CHECK validation rules.
+- Populated tables with baseline sample records reflecting realistic academic scenarios, including active, paused, and cancelled enrollments.
+
+Data Maintenance & Querying tasks completed:
+- Executed selective updates on student cities, emails, enrollment statuses, and assignment scores in update_queries.sql.
+- Tested hard deletes on unreferenced records vs FK-blocked deletions, and implemented soft delete logic in delete_queries.sql by updating status fields to 'cancelled'.
+- Built null_and_case_queries.sql using COALESCE to replace missing feedback with default strings and CASE WHEN clauses to grade student performance (>= 90 Excellent, >= 75 Good, >= 60 Needs Improvement, < 60 At Risk).
+- Implemented gap analysis reports in missing_data_reports.sql using LEFT JOIN combined with WHERE IS NULL checks to detect unsubmitted student assignments and missing session attendance.
+- Ported maintenance concepts into python_data_maintenance.py to compare SQL database updates/deletes with in-memory Python list and dictionary mutations.
+
+What I understood better today:
+- Why soft deletes are standard practice in data engineering for preserving audit trails and preventing broken foreign keys.
+- How SQL tri-state logic treats NULL values, requiring IS NULL for filtering and COALESCE for default output formatting.
+- How anti-joins (LEFT JOIN + WHERE right_key IS NULL) reliably uncover missing operational records across related entities.
+
+What was difficult:
+- Constructing multi-table LEFT JOIN queries with multi-column join criteria (student_id AND assignment_id) to correctly isolate missing submissions without creating duplicate join rows.
+
+One result I can explain and defend:
+- Why updating an enrollment status to 'cancelled' (soft delete) is safer than executing DELETE FROM students. Deleting the student row triggers foreign key constraint errors or cascades deletion of historic attendance records, whereas a soft delete maintains accurate historical analytics while excluding the student from active rosters.
+
+What I need to practice more:
+- Structuring automated data quality audit scripts that trigger warnings when unexpected NULL values or missing submissions breach defined thresholds.
+
+Did I use AI? If yes, how did I use it?
+- Yes, I pair-programmed with an AI assistant to validate join criteria for data gap queries, test SQL edge cases with NULL handling, and review documentation structure.
