@@ -1,0 +1,41 @@
+Daily Report - Day 17 Practice
+
+Today I worked on:
+- Practicing database schema evolution using ALTER TABLE commands to add new columns to live tables without losing data.
+- Creating reusable SQL Views to encapsulate complex multi-table joins, performance logic, and data gap reporting.
+- Executing atomic database transactions using BEGIN TRANSACTION, COMMIT, and ROLLBACK to safely test updates and protect data integrity.
+- Creating B-Tree indexes on primary foreign key columns to optimize query execution and join speeds.
+- Building an integrated progress reporting view (final_student_progress_view) combining student profiles, enrollments, assignment grades, and session attendance.
+- Answering key theoretical and architectural questions on schema evolution, views, transaction safety, and Databricks/Delta Lake preparation in schema_evolution_notes.md.
+
+Schema & Setup tasks completed:
+- Rebuilt and initialized the 7-table academy database schema in SQLite (students, programs, enrollments, sessions, attendance, assignments, submissions) in setup.sql with foreign key constraints, CHECK validation rules, and baseline records.
+- Evolved schemas in alter_table_queries.sql by adding new columns: phone_number (students), github_username, review_status, reviewed_at (submissions), corrected_at (attendance), and task_type (assignments).
+
+Schema Evolution & Views tasks completed:
+- Created 6 core reporting views in views.sql: student_profile_view, student_submission_view, attendance_summary_view, missing_feedback_view, student_performance_view, and missing_submission_view.
+- Implemented integration_challenge.sql to build final_student_progress_view, combining 5 tables via LEFT JOINs, CASE WHEN academic tier classifications, and COALESCE feedback defaults.
+
+Transactions & Indexing tasks completed:
+- Simulated unsafe bulk updates in transactions.sql and successfully reverted changes using ROLLBACK.
+- Executed multi-column updates and soft-deletes within transaction blocks and saved changes permanently using COMMIT.
+- Verified that SQLite Foreign Key constraints prevent accidental deletion of referenced parent student records.
+- Created B-Tree indexes in indexes.sql on submissions(student_id), submissions(assignment_id), attendance(session_id), attendance(student_id), and enrollments(program_id).
+
+What I understood better today:
+- Why real-world databases rely on ALTER TABLE for zero-downtime schema evolution instead of dropping and recreating tables.
+- How views simplify query logic for business reporting and protect downstream BI tools when underlying base tables change.
+- How transactions act as a safety net during mass update/delete operations, enabling verification before committing.
+- How indexing foreign key columns drastically improves join speeds by avoiding costly full table scans.
+
+What was difficult:
+- Structuring final_student_progress_view with multiple LEFT JOINs to avoid creating unintended Cartesian product duplicate rows when joining student submissions and attendance.
+
+One result I can explain and defend:
+- Why executing an UPDATE inside BEGIN TRANSACTION and verifying row count before ROLLBACK or COMMIT prevents catastrophic production data loss. In our test, rolling back an unconstrained update instantly restored original submission scores.
+
+What I need to practice more:
+- Designing Materialized Views and Delta Lake schema evolution options (like option("mergeSchema", "true") in PySpark) for high-scale Lakehouse architectures in Databricks.
+
+Did I use AI? If yes, how did I use it?
+- Yes, I pair-programmed with an AI assistant to verify transaction rollback behavior, structure multi-table join view queries, review index optimization strategies, and refine documentation.
