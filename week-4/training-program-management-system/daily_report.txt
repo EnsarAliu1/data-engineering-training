@@ -1,0 +1,66 @@
+Training Program Management System - Daily Report
+Week 4 | Days 18, 19, 20
+================================================
+
+
+WEDNESDAY - Day 18
+-------------------
+
+Main focus: Database design, setup, sample data, and relationship tests.
+
+Wednesday was about building the foundation. The first thing I did was sit down and think through what the system actually needs to track before writing a single line of SQL. That part matters more than people think — if you rush into CREATE TABLE statements without a clear picture of the relationships, you end up patching things later and creating a mess.
+
+Once I had a clear idea of the entities, I wrote the full schema in setup.sql. That included all nine tables: students, programs, personnel, program_personnel, enrollments, sessions, attendance, assignments, and submissions. Every table got a primary key with AUTO_INCREMENT. Every column that needed a constraint got one — NOT NULL where the field is required, CHECK constraints to lock down allowed values, UNIQUE constraints on columns and combinations that should never repeat, and foreign keys to tie everything together properly.
+
+After the schema was done I moved on to insert_data.sql and filled the database with realistic sample data. Not just a couple of test rows — actual students with names, cities, and emails, programs with real dates and types, sessions with topics and numbers, and submissions with scores and feedback. The data needed to be rich enough that the reports would actually mean something.
+
+The day ended with relationship_tests.sql, where I deliberately tried to break the database. I tried inserting a student with a NULL first name, a duplicate email, a score above 100, a negative score, an invalid attendance status, and submissions linked to students and assignments that do not exist. Every single one of those was rejected by the database with a clear error message. That was the expected output and it confirmed the structure was solid.
+
+Expected output achieved: Initial database structure built and all data protection constraints verified and tested.
+
+
+THURSDAY - Day 19
+------------------
+
+Main focus: JOIN reports, advanced reports, and missing data analysis.
+
+Thursday was the reporting day and honestly the most interesting one. Once the data is there, the question becomes: what can you actually learn from it?
+
+I started with join_reports.sql, which are the straightforward queries that connect tables together to answer basic questions. Things like showing all students alongside their enrolled programs, listing all programs with their assigned instructors and mentors, displaying sessions with their program details, and pulling attendance records with student names and session information. These queries are not complex on their own but they require the relationships to be set up correctly — a badly designed schema makes even simple JOINs painful.
+
+From there I moved into advanced_reports.sql. This is where things got more interesting. I wrote queries to calculate the average score per student and per assignment, built a full attendance breakdown per student showing how many times they were present, absent, late, or excused, found students with average scores below 70, flagged students with two or more absences, and created performance classification labels using CASE statements — things like "Excellent", "Good", and "Needs Improvement". The most complex query of the day was the program-level summary at the bottom, which uses three separate subqueries inside a single SELECT to calculate total attendance, average score, and missing work all at once for each program.
+
+The last thing on Thursday was missing_data_reports.sql. This is the part that would actually be useful in a real training setting because it finds the gaps. I used LEFT JOIN combined with WHERE IS NULL to find students who did not submit a specific assignment, students who have no submissions at all, submissions that have no feedback, students without attendance for a specific session, programs without enough sessions, and assignments that nobody submitted anything for. Getting comfortable with LEFT JOIN versus a regular JOIN was one of the key things this day taught me — a regular JOIN silently drops rows with no match, and that is exactly what you do not want when you are trying to find missing data.
+
+Expected output achieved: A full set of reports that answer management questions about student performance, attendance, and gaps in activity.
+
+
+FRIDAY - Day 20
+----------------
+
+Main focus: Data maintenance, views, transactions, indexes, and the final manager report.
+
+Friday was about making the system production-ready. All the structural and reporting work was done — Friday was about making it manageable, safe, and fast.
+
+I started with maintenance_queries.sql. The idea here was to handle the kind of corrections that come up in real life — fixing a wrong city, updating an email address, changing a program's status, correcting an attendance record from absent to present, adding missing feedback to a submission, and normalizing inconsistent city names like "Prishtinë" and "prishtina" and "PRISHTINA" into a single clean value. I also included a demonstration of a dangerous multi-table DELETE and explained why it should never be executed without a WHERE clause and a backup in place. This led naturally into the topic of hard delete versus soft delete. A hard delete removes the row permanently. A soft delete keeps the row but marks it as inactive through a status column. In our system we already do this for students — when a student drops out, the enrollment record is updated to "dropped" rather than deleted. Their history is preserved. That is almost always the better approach.
+
+After maintenance I wrote views.sql. A view is a saved SELECT query that behaves like a virtual table. I created five of them: a student program overview, a student submission overview, a student attendance summary, a risk analysis view that labels each student as No Risk through Critical based on their average score, and a full management dashboard view that combines enrollment status, program, instructor, risk level, attendance counts, and average score into a single place. The dashboard view in particular is the kind of thing a program manager could open on a Monday morning and immediately understand the state of the entire cohort.
+
+Next was transactions.sql. Transactions protect you when you are about to do something that could go wrong. I tested three scenarios. The first was updating a personnel role and then using ROLLBACK to undo it — confirmed the original value was restored. The second was adding an attendance note and using COMMIT to save it permanently. The third was a risky DELETE — removing all students with no enrollments — checking the result, and then rolling it back. That last one was a good reminder of how quickly you can lose data if you are not careful.
+
+Finally I wrote indexes.sql. Indexes do not change what a query returns — the result is always identical. What they change is how fast the database finds the data. At the scale of this project it does not matter much. But if this system ran for three years with thousands of students, dozens of programs, and tens of thousands of attendance and submission records, the difference between an indexed column and an unindexed one becomes very real. I created twelve indexes in total, all on foreign key columns and status columns that appear regularly in JOINs, WHERE filters, and GROUP BY groupings. I intentionally skipped primary keys and UNIQUE columns because MySQL already indexes those automatically.
+
+The day ended with the final manager report and the README, which documents everything — the design decisions, the constraints, the reports, the views, the transactions, the indexes, and honest reflections on what was hard and what I can explain confidently without notes.
+
+Expected output achieved: A complete, professional database project ready for review.
+
+
+================================================
+Summary across all three days
+================================================
+
+Wednesday built the structure and proved the data protection works.
+Thursday proved the data can answer real questions through reporting.
+Friday proved the system can be maintained, protected, and optimized over time.
+
+The three days together cover the full lifecycle of a database project — design, querying, and production readiness. Not just writing SQL, but understanding why each decision was made.
