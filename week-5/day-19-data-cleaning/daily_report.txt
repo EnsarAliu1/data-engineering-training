@@ -1,0 +1,39 @@
+Daily Report - Day 19 Practice
+
+Today I worked on:
+- Building a Python-based data-cleaning pipeline for raw e-commerce CSV files using a Bronze -> Silver -> Gold structure.
+- Normalizing customer, order, order-item, payment, and product data before applying validation rules.
+- Separating valid data from invalid records and preserving rejected rows in quarantine files with clear rejection reasons.
+- Creating Gold-level reports for customer lifetime value, category sales performance, and sales by shipping city.
+- Writing SQL quality checks, reconciliation logic, and business-report queries to inspect the cleaned data from different angles.
+
+Pipeline & cleaning tasks completed:
+- Loaded five Bronze datasets: customers, orders, order items, payments, and products.
+- Standardized text casing, whitespace, dates, numeric values, statuses, cities, countries, payment methods, and currency aliases in normalizers.py.
+- Validated required fields, ID uniqueness, email format, allowed status values, dates, numeric ranges, and duplicate records in validators.py.
+- Saved accepted records to data/silver and rejected records to data/invalid, including a rejection_reason column so that data issues can be traced and reviewed.
+
+Analytics tasks completed:
+- Generated customer_lifetime_value.csv by calculating total orders, total spend, and average order value from valid customers, orders, and order items.
+- Generated category_sales_performance.csv by joining the valid product category mapping with order items and aggregating units sold and revenue.
+- Generated shipping_city_sales_summary.csv by grouping valid orders and item-level revenue by shipping city.
+- Created SQL checks for duplicates, missing values, orphan records, invalid amounts/quantities, future dates, unsold products, and orders without items.
+- Built a payment reconciliation query that labels orders as missing payment, refunded, matched, underpaid, or overpaid.
+
+What I understood better today:
+- Data cleaning is not only about changing formatting; it also means defining which records are safe to trust for analytics.
+- Keeping invalid records in a quarantine layer is better than silently deleting them because it preserves the evidence needed to fix source-system problems.
+- Normalization and validation have different responsibilities: one creates consistency, while the other enforces data-quality rules.
+- Building Gold reports only from Silver data reduces the chance of duplicates, invalid values, or missing keys affecting revenue calculations.
+
+What was difficult:
+- Choosing rules that are strict enough to prevent bad data from reaching the Silver layer, but not so strict that valid business cases are rejected without a good reason.
+
+One result I can explain and defend:
+- Why a record with a duplicate ID or a negative quantity should not enter the analytical layer. A duplicate can inflate counts and revenue, while a negative quantity can distort totals. Sending these rows to quarantine keeps the report reliable and makes the issue visible instead of hiding it.
+
+What I need to practice more:
+- Adding automated data-quality metrics and thresholds, such as invalid-record percentages, duplicate rates, and reconciliation failure alerts, so the pipeline can warn us when source-data quality gets worse.
+
+Did I use AI? If yes, how did I use it?
+- Yes, I used an AI assistant as a pair-programming and documentation-review tool to discuss validation edge cases, check the structure of quality rules, and make the README and daily report clearer. The pipeline logic and final wording were reviewed and adapted to match the project.

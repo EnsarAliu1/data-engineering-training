@@ -1,0 +1,39 @@
+product_id,product_name,category,price,stock_quantity,supplier_id,status,rejection_reason
+6,Product 6,Accessories,17.29,,15,active,Invalid or missing stock_quantity
+17,Product 17,Accessories,309.38,-17,16,active,Invalid or missing stock_quantity
+19,Product 19,Accessories,-210.36,36,9,invalid,Invalid or missing price
+21,Product 21,Monitor,123.14,61,,invalid,Invalid or missing supplier_id
+23,Product 23,Monitor,,63,8,active,Invalid or missing price
+34,Product 34,Monitor,356.21,-60,16,active,Invalid or missing stock_quantity
+38,Product 38,Laptop,-389.55,,8,invalid,Invalid or missing price
+42,Product 42,Laptop,134.14,76,,active,Invalid or missing supplier_id
+46,Product 46,Accessories,,63,3,active,Invalid or missing price
+49,Product 49,Accessories,201.2,,17,active,Invalid or missing stock_quantity
+51,Product 51,Accessories,235.23,-33,4,invalid,Invalid or missing stock_quantity
+57,Product 57,Monitor,-167.98,23,15,active,Invalid or missing price
+63,Product 63,Accessories,460.16,24,,active,Invalid or missing supplier_id
+68,Product 68,Laptop,170.81,-78,9,invalid,Invalid or missing stock_quantity
+69,Product 69,Accessories,,40,10,active,Invalid or missing price
+76,Product 76,Laptop,-206.84,83,16,invalid,Invalid or missing price
+84,Product 84,Monitor,121.57,36,,active,Invalid or missing supplier_id
+85,Product 85,Accessories,166.54,-50,8,invalid,Invalid or missing stock_quantity
+92,Product 92,Accessories,,79,7,active,Invalid or missing price
+95,Product 95,Laptop,-207.45,47,20,active,Invalid or missing price
+102,Product 102,Laptop,365.38,-26,14,active,Invalid or missing stock_quantity
+104,Product 105,Accessories,278.02,82,,active,Invalid or missing supplier_id
+114,Product 114,Laptop,-182.81,19,7,active,Invalid or missing price
+115,Product 115,Laptop,,96,11,active,Invalid or missing price
+119,Product 119,Accessories,16.57,-79,15,active,Invalid or missing stock_quantity
+126,Product 126,Laptop,498.08,93,,active,Invalid or missing supplier_id
+133,Product 133,Laptop,-103.48,51,9,invalid,Invalid or missing price
+136,Product 136,Laptop,263.12,-88,9,invalid,Invalid or missing stock_quantity
+138,Product 138,Laptop,,73,12,active,Invalid or missing price
+139,Product 140,Accessories,373.08,6,17,active,Duplicate product_id: 139
+147,Product 147,Accessories,296.6,26,,invalid,Invalid or missing supplier_id
+152,Product 152,Monitor,-324.57,56,17,invalid,Invalid or missing price
+153,Product 153,Laptop,248.96,-21,2,active,Invalid or missing stock_quantity
+161,Product 161,Laptop,,22,4,active,Invalid or missing price
+168,Product 168,Monitor,123.39,80,,active,Invalid or missing supplier_id
+170,Product 170,Monitor,478.07,-29,10,active,Invalid or missing stock_quantity
+171,Product 171,Laptop,-198.82,74,19,active,Invalid or missing price
+174,Product 175,Accessories,28.11,75,7,invalid,Duplicate product_id: 174

@@ -1,0 +1,20 @@
+payment_id,order_id,payment_date,amount,currency,status,payment_method,rejection_reason
+24,16,2026-03-25,-22.19,EUR,Failed,Card,Invalid or missing amount
+27,91,2026-99-01,570.32,EUR,Refunded,Card,Invalid payment_date format: '2026-99-01'
+48,3,2026-03-21,-332.42,USD,Failed,Cash,Invalid or missing amount
+54,184,2026-99-01,534.11,EUR,Paid,Card,Invalid payment_date format: '2026-99-01'
+72,206,2026-03-17,-531.61,USD,Failed,Cash,Invalid or missing amount
+81,219,2026-99-01,681.26,EUR,Refunded,Paypal,Invalid payment_date format: '2026-99-01'
+96,99,2026-03-13,-420.81,EUR,Failed,Cash,Invalid or missing amount
+108,4,2026-99-01,653.29,EUR,Refunded,Paypal,Invalid payment_date format: '2026-99-01'
+109,137,2026-03-27,579.14,USD,Refunded,Card,Duplicate payment_id: 109
+120,39,2026-03-09,-558.41,EUR,Paid,Paypal,Invalid or missing amount
+135,216,2026-99-01,753.82,USD,Paid,Paypal,Invalid payment_date format: '2026-99-01'
+144,160,2026-03-05,-798.54,EUR,Paid,Paypal,Invalid or missing amount
+162,148,2026-99-01,371.74,EUR,Paid,Paypal,Invalid payment_date format: '2026-99-01'
+164,203,2026-03-26,190.39,USD,Paid,Cash,Duplicate payment_id: 164
+168,101,2026-03-01,-440.87,EUR,Failed,Cash,Invalid or missing amount
+189,177,2026-99-01,515.15,EUR,Failed,Cash,Invalid payment_date format: '2026-99-01'
+192,14,2026-03-25,-138.1,EUR,Failed,Paypal,Invalid or missing amount
+216,6,2026-99-01,-84.13,EUR,Failed,Paypal,Invalid payment_date format: '2026-99-01'
+219,58,2026-03-25,663.64,EUR,Paid,Cash,Duplicate payment_id: 219

@@ -1,0 +1,167 @@
+customer_id,full_name,city,country,total_orders,total_spent,average_order_value
+67,Customer 67,Prishtina,Unknown,2,5516.82,2758.41
+53,Customer 53,Prishtina,Albania,2,4610.78,2305.39
+89,Customer 89,Vushtrri,Albania,3,4248.09,1416.03
+161,Customer 161,Gjilan,North Macedonia,2,4006.0,2003.0
+71,Customer 71,Peja,Albania,2,3909.56,1954.78
+51,Customer 51,Mitrovica,Kosovo,1,3067.9,3067.9
+16,Customer 16,Prishtina,Albania,1,3029.13,3029.13
+112,Customer 112,Mitrovica,Kosovo,4,2967.55,741.89
+127,Customer 127,Prishtina,Kosovo,3,2753.76,917.92
+43,Customer 43,Prizren,Albania,2,2701.72,1350.86
+56,Customer 56,Prizren,Kosovo,1,2659.61,2659.61
+113,Customer 113,Gjakova,Unknown,1,2657.82,2657.82
+115,Customer 115,Peja,Unknown,2,2511.27,1255.63
+168,Customer 168,Peja,Albania,1,2484.36,2484.36
+50,Customer 50,Mitrovica,North Macedonia,3,2349.43,783.14
+97,Customer 97,Vushtrri,North Macedonia,1,2216.31,2216.31
+187,Customer 187,Prishtina,Unknown,1,2184.15,2184.15
+69,Customer 69,Ferizaj,Albania,1,1935.72,1935.72
+4,Customer 4,Prishtina,Albania,1,1892.72,1892.72
+172,Customer 172,Gjilan,Unknown,1,1790.52,1790.52
+76,Customer 76,Ferizaj,North Macedonia,2,1638.67,819.34
+164,Customer 164,Prishtina,Unknown,2,1585.24,792.62
+184,Customer 184,Gjilan,Kosovo,2,1451.44,725.72
+25,Customer 25,Prizren,North Macedonia,1,1443.6,1443.6
+12,Customer 12,Prizren,Kosovo,1,1429.93,1429.93
+79,Customer 79,Peja,Unknown,1,1389.91,1389.91
+167,Customer 167,Gjakova,Unknown,1,1359.64,1359.64
+15,Customer 15,Vushtrri,Kosovo,2,1308.28,654.14
+166,Customer 166,Ferizaj,North Macedonia,2,1235.98,617.99
+123,Customer 123,Prishtina,Unknown,2,1206.95,603.48
+75,Customer 75,Gjilan,Albania,1,1148.96,1148.96
+156,Customer 156,Gjilan,North Macedonia,1,1044.81,1044.81
+29,Customer 29,Prishtina,Unknown,1,998.88,998.88
+58,Customer 58,Mitrovica,Albania,2,987.2,493.6
+32,Customer 32,Ferizaj,Kosovo,1,976.32,976.32
+190,Customer 190,Gjakova,Unknown,1,970.97,970.97
+57,Customer 57,Prishtina,Kosovo,2,910.33,455.17
+136,Customer 136,Gjilan,Kosovo,1,783.58,783.58
+173,Customer 173,Prishtina,Albania,1,726.05,726.05
+183,Customer 183,Vushtrri,Albania,1,714.74,714.74
+20,Customer 20,Peja,Kosovo,1,670.23,670.23
+61,Customer 61,Gjakova,North Macedonia,1,620.14,620.14
+38,Customer 38,Gjakova,North Macedonia,1,598.34,598.34
+116,Customer 116,Prizren,Unknown,1,554.82,554.82
+3,Customer 3,Prishtina,Unknown,2,539.3,269.65
+177,Customer 177,Mitrovica,Albania,1,527.5,527.5
+55,Customer 55,Prishtina,Kosovo,1,517.77,517.77
+83,Customer 83,Prizren,North Macedonia,1,507.09,507.09
+191,Customer 191,Peja,Kosovo,2,491.23,245.62
+153,Customer 153,Ferizaj,Albania,1,474.18,474.18
+181,Customer 181,Prishtina,North Macedonia,1,463.52,463.52
+94,Customer 94,Peja,Unknown,1,441.95,441.95
+95,Customer 95,Vushtrri,North Macedonia,1,419.09,419.09
+182,Customer 182,Vushtrri,Kosovo,1,391.03,391.03
+87,Customer 87,Prizren,North Macedonia,1,326.96,326.96
+26,Customer 26,Prishtina,Kosovo,1,322.0,322.0
+147,Customer 147,Prishtina,Kosovo,2,186.28,93.14
+6,Customer 6,Prishtina,Albania,1,169.11,169.11
+96,Customer 96,Prishtina,Unknown,2,143.18,71.59
+143,Customer 143,Peja,Unknown,1,131.04,131.04
+2,Customer 2,Prishtina,Kosovo,1,83.84,83.84
+1,Customer 1,Ferizaj,Albania,0,0.0,0.0
+5,Customer 5,Prishtina,North Macedonia,0,0.0,0.0
+7,Customer 7,Vushtrri,North Macedonia,0,0.0,0.0
+8,Customer 8,Prishtina,Albania,1,0.0,0.0
+9,Customer 9,Prishtina,North Macedonia,1,0.0,0.0
+10,Customer 10,Peja,Kosovo,0,0.0,0.0
+11,Customer 11,Prizren,Unknown,0,0.0,0.0
+13,Customer 13,Gjilan,Albania,0,0.0,0.0
+14,Customer 14,Peja,Unknown,0,0.0,0.0
+17,Customer 17,Vushtrri,North Macedonia,0,0.0,0.0
+19,Customer 19,Gjilan,Albania,0,0.0,0.0
+21,Customer 21,Gjilan,North Macedonia,0,0.0,0.0
+23,Customer 23,Prishtina,Kosovo,0,0.0,0.0
+24,Customer 24,Mitrovica,Albania,1,0.0,0.0
+28,Customer 28,Gjakova,North Macedonia,0,0.0,0.0
+30,Customer 30,Prishtina,Kosovo,0,0.0,0.0
+33,Customer 33,Ferizaj,Albania,0,0.0,0.0
+34,Customer 34,Prishtina,North Macedonia,0,0.0,0.0
+35,Customer 35,Peja,Unknown,0,0.0,0.0
+37,Customer 37,Gjakova,Kosovo,2,0.0,0.0
+39,Customer 39,Gjilan,Albania,0,0.0,0.0
+41,Customer 41,Ferizaj,North Macedonia,0,0.0,0.0
+42,Customer 42,Prizren,Kosovo,1,0.0,0.0
+45,Customer 45,Prizren,Unknown,0,0.0,0.0
+46,Customer 46,Prishtina,Albania,0,0.0,0.0
+47,Customer 47,Vushtrri,Unknown,0,0.0,0.0
+48,Customer 48,Ferizaj,Albania,0,0.0,0.0
+49,Customer 49,Prishtina,North Macedonia,0,0.0,0.0
+52,Customer 52,Mitrovica,Kosovo,0,0.0,0.0
+59,Customer 59,Ferizaj,Unknown,0,0.0,0.0
+60,Customer 60,Prishtina,Kosovo,1,0.0,0.0
+63,Customer 63,Prishtina,Unknown,0,0.0,0.0
+64,Customer 64,Gjakova,Albania,0,0.0,0.0
+65,Customer 65,Prishtina,Albania,0,0.0,0.0
+68,Customer 68,Gjilan,Unknown,0,0.0,0.0
+70,Customer 70,Vushtrri,Unknown,0,0.0,0.0
+73,Customer 73,Gjakova,Unknown,1,0.0,0.0
+74,Customer 74,Prishtina,Unknown,1,0.0,0.0
+77,Customer 77,Ferizaj,Kosovo,0,0.0,0.0
+78,Customer 78,Prishtina,Albania,0,0.0,0.0
+82,Customer 82,Mitrovica,Albania,0,0.0,0.0
+84,Customer 84,Prishtina,North Macedonia,1,0.0,0.0
+85,Customer 85,Mitrovica,Kosovo,0,0.0,0.0
+86,Customer 86,Prizren,Albania,1,0.0,0.0
+91,Customer 91,Prizren,North Macedonia,0,0.0,0.0
+92,Customer 92,Peja,Kosovo,0,0.0,0.0
+98,Customer 98,Prizren,Albania,0,0.0,0.0
+99,Customer 99,Vushtrri,Kosovo,0,0.0,0.0
+100,Customer 100,Prizren,Kosovo,0,0.0,0.0
+101,Customer 101,Prizren,Albania,0,0.0,0.0
+102,Customer 102,Prishtina,Kosovo,0,0.0,0.0
+103,Customer 103,Vushtrri,North Macedonia,0,0.0,0.0
+104,Customer 104,Vushtrri,Kosovo,0,0.0,0.0
+105,Customer 105,Peja,Unknown,0,0.0,0.0
+106,Customer 106,Prishtina,North Macedonia,0,0.0,0.0
+107,Customer 107,Prishtina,Kosovo,0,0.0,0.0
+109,Customer 109,Gjakova,North Macedonia,0,0.0,0.0
+111,Customer 111,Peja,North Macedonia,0,0.0,0.0
+114,Customer 114,Peja,North Macedonia,0,0.0,0.0
+117,Customer 117,Gjilan,Albania,0,0.0,0.0
+118,Customer 118,Peja,Kosovo,1,0.0,0.0
+119,Customer 119,Gjakova,Albania,0,0.0,0.0
+121,Customer 121,Mitrovica,Unknown,0,0.0,0.0
+122,Customer 122,Peja,Unknown,0,0.0,0.0
+125,Customer 125,Prishtina,North Macedonia,0,0.0,0.0
+128,Customer 128,Prishtina,Kosovo,0,0.0,0.0
+129,Customer 129,Gjilan,Kosovo,1,0.0,0.0
+130,Customer 130,Gjilan,Albania,0,0.0,0.0
+131,Customer 131,Gjilan,North Macedonia,0,0.0,0.0
+133,Customer 133,Prishtina,Unknown,0,0.0,0.0
+134,Customer 134,Prizren,North Macedonia,2,0.0,0.0
+137,Customer 137,Peja,Kosovo,0,0.0,0.0
+138,Customer 138,Prishtina,North Macedonia,0,0.0,0.0
+139,Customer 139,Ferizaj,North Macedonia,0,0.0,0.0
+140,Customer 140,Prizren,Kosovo,0,0.0,0.0
+141,Customer 141,Peja,Kosovo,0,0.0,0.0
+142,Customer 142,Gjilan,Kosovo,2,0.0,0.0
+145,Customer 145,Gjakova,Albania,0,0.0,0.0
+146,Customer 146,Ferizaj,Kosovo,0,0.0,0.0
+148,Customer 148,Vushtrri,Albania,0,0.0,0.0
+149,Customer 149,Gjakova,Albania,1,0.0,0.0
+150,Customer 150,Prishtina,North Macedonia,0,0.0,0.0
+151,Customer 151,Vushtrri,North Macedonia,1,0.0,0.0
+152,Customer 152,Gjilan,Albania,0,0.0,0.0
+157,Customer 157,Prishtina,Kosovo,0,0.0,0.0
+158,Customer 158,Vushtrri,Unknown,0,0.0,0.0
+159,Customer 159,Peja,Unknown,1,0.0,0.0
+163,Customer 163,Vushtrri,Unknown,0,0.0,0.0
+165,Customer 165,Ferizaj,Albania,0,0.0,0.0
+169,Customer 169,Prishtina,Kosovo,0,0.0,0.0
+170,Customer 170,Prishtina,Albania,2,0.0,0.0
+171,Customer 171,Prishtina,North Macedonia,0,0.0,0.0
+174,Customer 174,Mitrovica,Unknown,0,0.0,0.0
+175,Customer 175,Prizren,Unknown,0,0.0,0.0
+178,Customer 178,Vushtrri,Kosovo,0,0.0,0.0
+179,Customer 179,Peja,Kosovo,0,0.0,0.0
+185,Customer 185,Prishtina,Kosovo,1,0.0,0.0
+188,Customer 188,Peja,Albania,0,0.0,0.0
+192,Customer 192,Prizren,Unknown,0,0.0,0.0
+193,Customer 193,Gjilan,Albania,0,0.0,0.0
+194,Customer 194,Gjakova,Kosovo,1,0.0,0.0
+195,Customer 195,Gjilan,Kosovo,0,0.0,0.0
+196,Customer 196,Gjakova,Unknown,0,0.0,0.0
+197,Customer 197,Gjilan,North Macedonia,0,0.0,0.0
+199,Customer 199,Peja,Unknown,1,0.0,0.0

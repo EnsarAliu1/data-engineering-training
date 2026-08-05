@@ -1,0 +1,181 @@
+product_id,product_name,category,price,stock_quantity,supplier_id,status
+1,Product 1 ,ACCESSORIES,232.19,64,9,active
+2,Product 2 ,Laptop,108.87,26,19,ACTIVE
+3,Product 3 ,Accessories,75.16,67,12,ACTIVE
+4,Product 4 ,Monitor,303.67,80,9,ACTIVE
+5,Product 5 ,ACCESSORIES,353.15,29,16,active
+6,Product 6 ,ACCESSORIES,17.29,0,15,active
+7,Product 7 ,ACCESSORIES,154.47,18,12,active
+8,Product 8 ,Laptop,161.46,42,11,active
+9,Product 9 , laptop ,420.36,15,1,invalid
+10,Product 10 ,Laptop,148.47,47,13,active
+11,Product 11 ,Laptop,499.4,75,12,active
+12,Product 12 ,Accessories,379.05,6,4,ACTIVE
+13,Product 13 , laptop ,418.16,36,8,active
+14,Product 14 , laptop ,220.94,40,12,active
+15,Product 15 ,ACCESSORIES,442.71,97,18,invalid
+16,Product 16 ,Laptop,105.7,10,14,active
+17,Product 17 ,Accessories,309.38,-17,16,ACTIVE
+18,Product 18 , laptop ,456.39,70,6,active
+19,Product 19 ,Accessories,-210.36,36,9,invalid
+20,Product 20 ,Accessories,370.68,83,13,invalid
+21,Product 21 ,Monitor,123.14,61,,invalid
+22,Product 22 , laptop ,200.21,21,3,ACTIVE
+23,Product 23 ,Monitor,,63,8,active
+24,Product 24 ,ACCESSORIES,453.6,97,14,ACTIVE
+25,Product 25 ,Laptop,276.15,31,6,active
+26,Product 26 , laptop ,280.16,40,12,active
+27,Product 27 ,Laptop,405.63,25,14,active
+28,Product 28 , laptop ,209.87,67,13,active
+29,Product 29 ,ACCESSORIES,172.41,7,9,invalid
+30,Product 30 ,Monitor,484.0,16,17,invalid
+31,Product 31 ,Laptop,396.2,27,9,ACTIVE
+32,Product 32 ,ACCESSORIES,195.36,82,14,active
+33,Product 33 , laptop ,425.1,2,2,active
+34,Product 34 ,Monitor,356.21,-60,16,ACTIVE
+34,Product 35 ,ACCESSORIES,41.2,67,15,ACTIVE
+36,Product 36 , laptop ,392.64,28,5,invalid
+37,Product 37 ,ACCESSORIES,486.08,13,3,invalid
+38,Product 38 , laptop ,-389.55,0,8,invalid
+39,Product 39 ,Accessories,460.36,82,5,invalid
+40,Product 40 ,ACCESSORIES,129.64,81,4,ACTIVE
+41,Product 41 ,Monitor,39.82,67,7,active
+42,Product 42 ,Laptop,134.14,76,,ACTIVE
+43,Product 43 ,Accessories,271.05,58,11,invalid
+44,Product 44 ,ACCESSORIES,420.51,31,17,ACTIVE
+45,Product 45 ,ACCESSORIES,275.77,3,10,ACTIVE
+46,Product 46 ,ACCESSORIES,,63,3,active
+47,Product 47 ,Accessories,117.78,54,8,active
+48,Product 48 ,ACCESSORIES,21.88,43,12,invalid
+49,Product 49 ,Accessories,201.2,0,17,ACTIVE
+50,Product 50 ,Accessories,106.58,25,7,ACTIVE
+51,Product 51 ,Accessories,235.23,-33,4,invalid
+52,Product 52 , laptop ,250.4,23,16,active
+53,Product 53 ,Monitor,455.65,7,5,active
+54,Product 54 ,Monitor,31.91,3,5,active
+55,Product 55 , laptop ,30.66,7,13,active
+56,Product 56 ,Laptop,449.59,40,3,ACTIVE
+57,Product 57 ,Monitor,-167.98,23,15,ACTIVE
+58,Product 58 ,ACCESSORIES,159.35,92,12,active
+59,Product 59 ,Laptop,224.01,13,3,active
+60,Product 60 ,Laptop,44.98,53,18,ACTIVE
+61,Product 61 ,Accessories,193.16,98,14,ACTIVE
+62,Product 62 , laptop ,29.38,60,12,invalid
+63,Product 63 ,Accessories,460.16,24,,active
+64,Product 64 ,Laptop,369.97,60,14,ACTIVE
+65,Product 65 ,ACCESSORIES,406.85,98,2,active
+66,Product 66 ,Laptop,22.25,8,9,ACTIVE
+67,Product 67 ,Accessories,374.91,77,12,active
+68,Product 68 ,Laptop,170.81,-78,9,invalid
+69,Product 69 ,Accessories,,40,10,ACTIVE
+69,Product 70 ,Laptop,362.18,76,1,ACTIVE
+71,Product 71 ,ACCESSORIES,58.09,91,13,active
+72,Product 72 , laptop ,457.2,63,16,ACTIVE
+73,Product 73 ,Accessories,9.31,94,5,invalid
+74,Product 74 ,ACCESSORIES,121.89,40,12,invalid
+75,Product 75 ,ACCESSORIES,44.11,25,6,ACTIVE
+76,Product 76 ,Laptop,-206.84,83,16,invalid
+77,Product 77 ,ACCESSORIES,274.59,20,4,ACTIVE
+78,Product 78 , laptop ,136.12,10,4,active
+79,Product 79 ,ACCESSORIES,251.75,90,6,ACTIVE
+80,Product 80 ,Monitor,70.8,58,8,invalid
+81,Product 81 ,Laptop,271.59,99,10,active
+82,Product 82 ,Accessories,143.3,34,9,invalid
+83,Product 83 , laptop ,133.87,56,6,ACTIVE
+84,Product 84 ,Monitor,121.57,36,,ACTIVE
+85,Product 85 ,Accessories,166.54,-50,8,invalid
+86,Product 86 ,Laptop,265.52,83,15,ACTIVE
+87,Product 87 , laptop ,55.65,60,15,active
+88,Product 88 , laptop ,24.98,37,4,ACTIVE
+89,Product 89 , laptop ,98.84,74,3,active
+90,Product 90 ,ACCESSORIES,258.77,22,20,active
+91,Product 91 ,Laptop,388.62,85,4,invalid
+92,Product 92 ,Accessories,,79,7,ACTIVE
+93,Product 93 ,Laptop,187.51,18,7,active
+94,Product 94 , laptop ,23.93,93,1,active
+95,Product 95 , laptop ,-207.45,47,20,active
+96,Product 96 ,ACCESSORIES,43.58,4,18,active
+97,Product 97 ,ACCESSORIES,36.32,12,18,ACTIVE
+98,Product 98 , laptop ,321.4,11,13,invalid
+99,Product 99 ,Accessories,139.23,36,14,ACTIVE
+100,Product 100 ,Accessories,159.62,72,14,active
+101,Product 101 ,Accessories,14.02,98,7,active
+102,Product 102 ,Laptop,365.38,-26,14,ACTIVE
+103,Product 103 ,ACCESSORIES,214.76,11,19,active
+104,Product 104 , laptop ,233.15,20,1,ACTIVE
+104,Product 105 ,ACCESSORIES,278.02,82,,ACTIVE
+106,Product 106 ,Monitor,288.57,47,6,ACTIVE
+107,Product 107 ,Monitor,177.23,20,6,ACTIVE
+108,Product 108 , laptop ,58.85,62,10,ACTIVE
+109,Product 109 ,ACCESSORIES,419.46,5,11,ACTIVE
+110,Product 110 ,ACCESSORIES,305.78,81,3,invalid
+111,Product 111 , laptop ,312.07,20,20,active
+112,Product 112 ,ACCESSORIES,309.29,25,6,invalid
+113,Product 113 ,Monitor,112.98,51,6,active
+114,Product 114 , laptop ,-182.81,19,7,ACTIVE
+115,Product 115 ,Laptop,,96,11,ACTIVE
+116,Product 116 ,Monitor,197.97,58,10,invalid
+117,Product 117 , laptop ,212.94,74,14,active
+118,Product 118 ,Monitor,331.13,57,15,ACTIVE
+119,Product 119 ,ACCESSORIES,16.57,-79,15,ACTIVE
+120,Product 120 ,ACCESSORIES,226.18,79,6,active
+121,Product 121 , laptop ,203.17,8,12,active
+122,Product 122 ,Monitor,185.84,56,17,invalid
+123,Product 123 , laptop ,25.18,81,3,invalid
+124,Product 124 ,Monitor,160.29,92,3,ACTIVE
+125,Product 125 , laptop ,377.27,48,1,ACTIVE
+126,Product 126 ,Laptop,498.08,93,,ACTIVE
+127,Product 127 ,Accessories,70.15,62,6,invalid
+128,Product 128 ,Laptop,395.25,28,12,invalid
+129,Product 129 ,Accessories,379.31,20,20,active
+130,Product 130 , laptop ,453.01,58,9,invalid
+131,Product 131 , laptop ,482.34,61,19,active
+132,Product 132 ,Accessories,309.85,30,12,ACTIVE
+133,Product 133 , laptop ,-103.48,51,9,invalid
+134,Product 134 , laptop ,167.27,48,9,ACTIVE
+135,Product 135 ,Accessories,385.29,6,15,invalid
+136,Product 136 ,Laptop,263.12,-88,9,invalid
+137,Product 137 ,Accessories,316.74,50,9,active
+138,Product 138 , laptop ,,73,12,active
+139,Product 139 , laptop ,383.5,56,6,invalid
+139,Product 140 ,Accessories,373.08,6,17,active
+141,Product 141 ,Accessories,158.49,74,1,invalid
+142,Product 142 ,Accessories,21.73,19,20,invalid
+143,Product 143 ,Accessories,218.96,65,2,ACTIVE
+144,Product 144 ,Laptop,246.76,78,1,ACTIVE
+145,Product 145 ,Accessories,6.29,45,4,invalid
+146,Product 146 ,ACCESSORIES,181.79,28,19,active
+147,Product 147 ,Accessories,296.6,26,,invalid
+148,Product 148 , laptop ,415.09,20,1,ACTIVE
+149,Product 149 ,Laptop,355.2,57,3,invalid
+150,Product 150 ,Accessories,76.62,85,13,active
+151,Product 151 ,Monitor,483.73,7,12,invalid
+152,Product 152 ,Monitor,-324.57,56,17,invalid
+153,Product 153 ,Laptop,248.96,-21,2,ACTIVE
+154,Product 154 , laptop ,268.11,51,8,ACTIVE
+155,Product 155 ,Laptop,33.9,99,1,invalid
+156,Product 156 , laptop ,277.71,25,14,ACTIVE
+157,Product 157 ,Monitor,261.54,82,14,invalid
+158,Product 158 ,Laptop,91.45,39,10,invalid
+159,Product 159 ,ACCESSORIES,29.0,92,18,ACTIVE
+160,Product 160 ,ACCESSORIES,190.7,55,3,invalid
+161,Product 161 , laptop ,,22,4,active
+162,Product 162 ,Laptop,119.99,4,11,invalid
+163,Product 163 ,Laptop,462.96,33,9,invalid
+164,Product 164 ,Monitor,279.12,55,9,active
+165,Product 165 ,Laptop,322.79,27,17,ACTIVE
+166,Product 166 , laptop ,89.04,30,6,invalid
+167,Product 167 ,ACCESSORIES,457.9,24,11,invalid
+168,Product 168 ,Monitor,123.39,80,,active
+169,Product 169 ,Laptop,238.71,67,1,active
+170,Product 170 ,Monitor,478.07,-29,10,ACTIVE
+171,Product 171 ,Laptop,-198.82,74,19,ACTIVE
+172,Product 172 ,Laptop,76.57,3,4,invalid
+173,Product 173 , laptop ,464.83,44,1,ACTIVE
+174,Product 174 ,Laptop,25.62,88,3,invalid
+174,Product 175 ,Accessories,28.11,75,7,invalid
+176,Product 176 ,ACCESSORIES,446.18,8,4,ACTIVE
+177,Product 177 ,Laptop,106.83,14,2,invalid
+178,Product 178 ,Accessories,48.3,96,16,ACTIVE
+179,Product 179 , laptop ,70.66,96,10,active
+180,Product 180 ,Laptop,171.58,33,12,active

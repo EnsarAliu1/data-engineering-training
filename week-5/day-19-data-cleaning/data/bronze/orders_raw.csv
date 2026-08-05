@@ -1,0 +1,221 @@
+order_id,customer_id,order_date,status,shipping_city,payment_method
+1,73,2026-02-02,NEW,Ferizaj,Cash
+2,197,2026-02-03,X,Gjilan,PayPal
+3,191,2026-02-04,NEW,Mitrovica,Card
+4,112,2026-02-05,NEW,Ferizaj,Cash
+5,181,2026-02-06,NEW,Vushtrri,PayPal
+6,56,2026-02-07,NEW,Gjilan,Card
+7,112,2026-02-08,NEW,Vushtrri,Card
+8,74,2026-02-09,NEW,Prishtina,Cash
+9,126,2026-02-10,NEW, Gjakova ,PayPal
+10,204,2026-02-11,Completed, Gjakova ,PayPal
+11,89,2026-02-12,completed,Prizren,Cash
+12,55,2026-02-13,Completed, Gjakova ,Card
+13,29,2026-02-14,NEW, Gjakova ,PayPal
+14,144,2026-02-15,NEW,Ferizaj,Cash
+15,25,2026-02-16,X,Mitrovica,PayPal
+16,23,2026-02-17,X,Prishtina,
+17,96,2026-02-18,Completed,Gjilan,Cash
+18,110,2026-02-19,Completed,Mitrovica,PayPal
+19,60,2026-02-20,X,Prizren,PayPal
+20,153,2026-02-21,NEW,Ferizaj,PayPal
+21,84,2026-02-22,Completed, Gjakova ,PayPal
+22,142,2026-02-23,completed,Prizren,Cash
+23,113,2026-02-24,completed,Peja,Card
+24,86,2026-02-25,X,Peja,PayPal
+25,50,2026-02-26,completed,Gjilan,PayPal
+26,159,2026-02-27,Completed,Prizren,Card
+27,186,2026-02-28,completed,Vushtrri,Cash
+28,42,2026-02-01,Completed,Ferizaj,Card
+29,67,bad-date,NEW,Prizren,PayPal
+30,27,2026-02-03,Completed,Mitrovica,Card
+31,38,2026-02-04,completed,Gjilan,Cash
+32,71,2026-02-05,Completed,prishtina,
+33,164,2026-02-06,NEW,Gjilan,Card
+34,100,2026-02-07,X,Prishtina,Card
+35,103,2026-02-08,X,Peja,PayPal
+36,162,2026-02-09,completed, Gjakova ,Card
+37,37,2026-02-10,completed,Mitrovica,Card
+38,190,2026-02-11,Completed,Mitrovica,PayPal
+39,147,2026-02-12,X,Peja,PayPal
+40,185,2026-02-13,Completed,Prizren,PayPal
+41,32,2026-02-14,X,Mitrovica,Cash
+42,67,2026-02-15,NEW,Mitrovica,Card
+43,201,2026-02-16,X,Prizren,Cash
+44,109,2026-02-17,X, Gjakova ,Card
+45,160,2026-02-18,X,Vushtrri,PayPal
+46,170,2026-02-19,Completed,Ferizaj,Card
+47,100,2026-02-20,X,prishtina,Card
+48,65,2026-02-21,Completed,Prizren,
+49,184,2026-02-22,Completed,Vushtrri,Cash
+49,26,2026-02-23,X,Vushtrri,Card
+51,184,2026-02-24,X,Vushtrri,Card
+52,164,2026-02-25,completed,Vushtrri,Cash
+53,106,2026-02-26,X,Peja,PayPal
+54,48,2026-02-27,X,Vushtrri,Card
+55,187,2026-02-28,completed,Prishtina,Cash
+56,71,2026-02-01,X,Mitrovica,Card
+57,4,2026-02-02,NEW,Mitrovica,Cash
+58,161,bad-date,completed,Gjilan,Card
+59,58,2026-02-04,completed,Mitrovica,PayPal
+60,57,2026-02-05,X, Gjakova ,Card
+61,43,2026-02-06,Completed,prishtina,PayPal
+62,50,2026-02-07,X,Vushtrri,PayPal
+63,58,2026-02-08,Completed,Ferizaj,PayPal
+64,164,2026-02-09,X, Gjakova ,
+65,76,2026-02-10,Completed, Gjakova ,Cash
+66,201,2026-02-11,Completed,Gjilan,PayPal
+67,97,2026-02-12,completed,Mitrovica,PayPal
+68,48,2026-02-13,X,Prishtina,PayPal
+69,205,2026-02-14,completed,Ferizaj,Card
+70,168,2026-02-15,completed,Ferizaj,Cash
+71,125,2026-02-16,X,prishtina,PayPal
+72,93,2026-02-17,Completed,Gjilan,Cash
+73,15,2026-02-18,NEW,Ferizaj,Card
+74,136,2026-02-19,completed,Prishtina,PayPal
+75,3,2026-02-20,Completed,prishtina,PayPal
+76,76,2026-02-21,completed,prishtina,PayPal
+77,37,2026-02-22,Completed,Prizren,Cash
+78,89,2026-02-23,Completed,Peja,Cash
+79,203,2026-02-24,Completed,prishtina,PayPal
+80,141,2026-02-25,completed,Peja,
+81,127,2026-02-26,Completed,Vushtrri,Card
+82,190,2026-02-27,X,prishtina,PayPal
+83,31,2026-02-28,completed,Mitrovica,Card
+84,36,2026-02-01,X, Gjakova ,PayPal
+85,15,2026-02-02,X, Gjakova ,Card
+86,180,2026-02-03,X,Peja,Cash
+87,43,bad-date,NEW,Prizren,Cash
+88,120,2026-02-05,X,Gjilan,Cash
+89,96,2026-02-06,X,Mitrovica,PayPal
+90,20,2026-02-07,Completed,Ferizaj,PayPal
+91,166,2026-02-08,NEW,Prishtina,PayPal
+92,12,2026-02-09,completed,prishtina,PayPal
+93,124,2026-02-10,X,Prizren,Card
+94,55,2026-02-11,X,Prizren,Cash
+95,25,2026-02-12,completed,Ferizaj,Cash
+96,200,2026-02-13,Completed,Gjilan,
+97,112,2026-02-14,completed,Mitrovica,Cash
+98,142,2026-02-15,NEW,Gjilan,Cash
+99,91,2026-02-16,X,Mitrovica,Cash
+99,129,2026-02-17,completed,Vushtrri,Cash
+101,53,2026-02-18,X,prishtina,Cash
+102,50,2026-02-19,completed,Gjilan,Card
+103,151,2026-02-20,NEW,Prishtina,Cash
+104,186,2026-02-21,X,Vushtrri,PayPal
+105,13,2026-02-22,X,Gjilan,Card
+106,2,2026-02-23,NEW,Peja,Cash
+107,156,2026-02-24,NEW,Vushtrri,PayPal
+108,157,2026-02-25,X,Prizren,PayPal
+109,173,2026-02-26,NEW,Peja,Card
+110,171,2026-02-27,X,Prizren,Card
+111,170,2026-02-28,Completed,Prishtina,Cash
+112,199,2026-02-01,NEW,Prishtina,
+113,95,2026-02-02,Completed,Gjilan,PayPal
+114,182,2026-02-03,completed,Gjilan,Card
+115,108,2026-02-04,NEW,Ferizaj,Card
+116,111,bad-date,NEW, Gjakova ,PayPal
+117,134,2026-02-06,NEW,prishtina,Cash
+118,148,2026-02-07,X, Gjakova ,Card
+119,4,2026-02-08,X,Prizren,Cash
+120,198,2026-02-09,X,Vushtrri,Card
+121,22,2026-02-10,X,Peja,Card
+122,161,2026-02-11,NEW,Mitrovica,Card
+123,3,2026-02-12,NEW,prishtina,Card
+124,32,2026-02-13,Completed, Gjakova ,Card
+125,71,2026-02-14,Completed, Gjakova ,PayPal
+126,191,2026-02-15,Completed,Prishtina,Cash
+127,199,2026-02-16,Completed,prishtina,Cash
+128,161,2026-02-17,X, Gjakova ,
+129,172,2026-02-18,completed,Prishtina,PayPal
+130,9,2026-02-19,NEW,Prishtina,Card
+131,167,2026-02-20,NEW,Mitrovica,Cash
+132,80,2026-02-21,Completed, Gjakova ,PayPal
+133,16,2026-02-22,completed,Ferizaj,PayPal
+134,187,2026-02-23,X, Gjakova ,PayPal
+135,43,2026-02-24,Completed,prishtina,Cash
+136,166,2026-02-25,Completed,Mitrovica,Cash
+137,99,2026-02-26,X,Gjilan,PayPal
+138,86,2026-02-27,completed,Gjilan,Card
+139,160,2026-02-28,completed,Prishtina,Card
+140,154,2026-02-01,completed,Mitrovica,Card
+141,97,2026-02-02,X,Mitrovica,PayPal
+142,198,2026-02-03,Completed, Gjakova ,Cash
+143,177,2026-02-04,NEW,Ferizaj,Cash
+144,69,2026-02-05,X,Prizren,
+145,151,bad-date,NEW,Gjilan,Card
+146,147,2026-02-07,Completed,Gjilan,PayPal
+147,176,2026-02-08,X,Ferizaj,PayPal
+148,22,2026-02-09,X,Mitrovica,Card
+149,202,2026-02-10,Completed,Gjilan,PayPal
+149,15,2026-02-11,X, Gjakova ,PayPal
+151,53,2026-02-12,completed,Prishtina,Cash
+152,118,2026-02-13,NEW,Vushtrri,Cash
+153,198,2026-02-14,NEW,Peja,Cash
+154,149,2026-02-15,completed,Vushtrri,Cash
+155,123,2026-02-16,Completed,Peja,Card
+156,50,2026-02-17,NEW,Prizren,PayPal
+157,75,2026-02-18,completed,Ferizaj,Cash
+158,200,2026-02-19,Completed,Peja,Card
+159,127,2026-02-20,completed,prishtina,Cash
+160,162,2026-02-21,X,prishtina,
+161,40,2026-02-22,completed,Prishtina,Cash
+162,72,2026-02-23,NEW,prishtina,Card
+163,53,2026-02-24,X,Peja,Cash
+164,200,2026-02-25,completed,Mitrovica,Card
+165,115,2026-02-26,Completed,Gjilan,Card
+166,87,2026-02-27,Completed,Prizren,Cash
+167,22,2026-02-28,NEW,Prishtina,Card
+168,143,2026-02-01,completed, Gjakova ,Cash
+169,17,2026-02-02,X,prishtina,PayPal
+170,24,2026-02-03,completed,Ferizaj,PayPal
+171,60,2026-02-04,NEW,Vushtrri,Cash
+172,47,2026-02-05,X,Prizren,Cash
+173,61,2026-02-06,Completed,Prizren,Card
+174,66,bad-date,completed,Prishtina,PayPal
+175,8,2026-02-08,NEW,Gjilan,PayPal
+176,182,2026-02-09,X,Prishtina,
+177,26,2026-02-10,Completed,Ferizaj,Card
+178,51,2026-02-11,completed, Gjakova ,PayPal
+179,27,2026-02-12,X,Ferizaj,Cash
+180,66,2026-02-13,X,prishtina,Cash
+181,124,2026-02-14,X,Prizren,Cash
+182,62,2026-02-15,Completed,Prishtina,Cash
+183,184,2026-02-16,Completed,Prishtina,Card
+184,57,2026-02-17,NEW,Ferizaj,PayPal
+185,36,2026-02-18,X,prishtina,Cash
+186,6,2026-02-19,NEW, Gjakova ,Cash
+187,83,2026-02-20,Completed, Gjakova ,Card
+188,161,2026-02-21,completed,Prizren,Cash
+189,57,2026-02-22,NEW,Prizren,PayPal
+190,116,2026-02-23,Completed, Gjakova ,Card
+191,69,2026-02-24,X,Mitrovica,Card
+192,40,2026-02-25,NEW,Gjilan,
+193,147,2026-02-26,completed,Ferizaj,Card
+194,67,2026-02-27,X,prishtina,Cash
+195,117,2026-02-28,X,prishtina,Card
+196,132,2026-02-01,NEW,Peja,PayPal
+197,123,2026-02-02,completed,prishtina,Cash
+198,194,2026-02-03,Completed,Ferizaj,Cash
+199,67,2026-02-04,Completed,Peja,Card
+199,100,2026-02-05,completed,Mitrovica,Card
+201,15,2026-02-06,completed,Prizren,PayPal
+202,5,2026-02-07,X,Vushtrri,Cash
+203,131,bad-date,Completed, Gjakova ,Card
+204,203,2026-02-09,completed,Prizren,Cash
+205,112,2026-02-10,NEW,Mitrovica,Card
+206,71,2026-02-11,Completed,Prizren,Card
+207,134,2026-02-12,Completed,Prizren,Card
+208,154,2026-02-13,NEW,prishtina,
+209,156,2026-02-14,X,Gjilan,Card
+210,53,2026-02-15,Completed,Peja,PayPal
+211,79,2026-02-16,Completed,Prishtina,Card
+212,178,2026-02-17,X,Prishtina,PayPal
+213,89,2026-02-18,completed,Gjilan,PayPal
+214,127,2026-02-19,NEW,Prishtina,Cash
+215,196,2026-02-20,X,Prizren,PayPal
+216,69,2026-02-21,Completed,Prizren,PayPal
+217,94,2026-02-22,NEW,Prizren,PayPal
+218,96,2026-02-23,NEW,Ferizaj,PayPal
+219,115,2026-02-24,NEW,prishtina,Cash
+220,183,2026-02-25,Completed,Ferizaj,PayPal

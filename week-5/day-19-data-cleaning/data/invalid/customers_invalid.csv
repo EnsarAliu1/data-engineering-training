@@ -1,0 +1,35 @@
+customer_id,full_name,email,city,country,created_at,status,rejection_reason
+18,Customer 18,user18 mail.com,Gjakova,North Macedonia,2026-01-19,active,Invalid email format: 'user18 mail.com'
+22,Customer 22,user22mail.com,Gjakova,Unknown,2026-01-23,unknown,Invalid email format: 'user22mail.com'
+27,,user27@mail.com,Ferizaj,Unknown,2026-01-28,active,Missing full_name
+31,Customer 31,user31@mail.com,Gjakova,Unknown,2026-15-99,blocked,Invalid created_at date format: '2026-15-99'
+36,Customer 36,user36 mail.com,Peja,North Macedonia,2026-01-09,blocked,Invalid email format: 'user36 mail.com'
+39,Customer 40,user40@mail.com,Vushtrri,Unknown,2026-01-13,blocked,Duplicate customer_id: 39
+44,Customer 44,user44mail.com,Prishtina,North Macedonia,2026-01-17,unknown,Invalid email format: 'user44mail.com'
+54,,user54 mail.com,Prizren,Kosovo,2026-01-27,active,Missing full_name
+62,Customer 62,user62@mail.com,Gjilan,Kosovo,2026-15-99,active,Invalid created_at date format: '2026-15-99'
+66,Customer 66,user66mail.com,Ferizaj,Albania,2026-01-11,unknown,Invalid email format: 'user66mail.com'
+72,Customer 72,user72 mail.com,Peja,Albania,2026-01-17,unknown,Invalid email format: 'user72 mail.com'
+79,Customer 80,user80@mail.com,Gjakova,Kosovo,2026-01-25,blocked,Duplicate customer_id: 79
+81,,user81@mail.com,Ferizaj,Kosovo,2026-01-26,active,Missing full_name
+88,Customer 88,user88mail.com,Gjakova,Unknown,2026-01-05,active,Invalid email format: 'user88mail.com'
+90,Customer 90,user90 mail.com,Prishtina,Kosovo,2026-01-07,unknown,Invalid email format: 'user90 mail.com'
+93,Customer 93,user93@mail.com,Peja,Unknown,2026-15-99,unknown,Invalid created_at date format: '2026-15-99'
+108,,user108 mail.com,Ferizaj,Albania,2026-01-25,active,Missing full_name
+110,Customer 110,user110mail.com,Peja,Unknown,2026-01-27,unknown,Invalid email format: 'user110mail.com'
+119,Customer 120,user120@mail.com,Prizren,North Macedonia,2026-01-09,unknown,Duplicate customer_id: 119
+124,Customer 124,user124@mail.com,Ferizaj,North Macedonia,2026-15-99,blocked,Invalid created_at date format: '2026-15-99'
+126,Customer 126,user126 mail.com,Vushtrri,Unknown,2026-01-15,unknown,Invalid email format: 'user126 mail.com'
+132,Customer 132,user132mail.com,Vushtrri,North Macedonia,2026-01-21,active,Invalid email format: 'user132mail.com'
+135,,user135@mail.com,Gjilan,Kosovo,2026-01-24,active,Missing full_name
+144,Customer 144,user144 mail.com,Vushtrri,Albania,2026-01-05,active,Invalid email format: 'user144 mail.com'
+154,Customer 154,user154mail.com,Mitrovica,Unknown,2026-01-15,active,Invalid email format: 'user154mail.com'
+155,Customer 155,user155@mail.com,Prizren,Kosovo,2026-15-99,active,Invalid created_at date format: '2026-15-99'
+159,Customer 160,user160@mail.com,Gjakova,Albania,2026-01-21,active,Duplicate customer_id: 159
+162,,user162 mail.com,Gjilan,Unknown,2026-01-23,active,Missing full_name
+176,Customer 176,user176mail.com,Prizren,Kosovo,2026-01-09,unknown,Invalid email format: 'user176mail.com'
+180,Customer 180,user180 mail.com,Prishtina,Albania,2026-01-13,active,Invalid email format: 'user180 mail.com'
+186,Customer 186,user186@mail.com,Prishtina,North Macedonia,2026-15-99,active,Invalid created_at date format: '2026-15-99'
+189,,user189@mail.com,Gjakova,North Macedonia,2026-01-22,active,Missing full_name
+198,Customer 198,user198mail.com,Gjakova,Kosovo,2026-01-03,unknown,Invalid email format: 'user198mail.com'
+199,Customer 200,user200@mail.com,Gjakova,Kosovo,2026-01-05,active,Duplicate customer_id: 199
